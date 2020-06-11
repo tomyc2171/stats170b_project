@@ -1,6 +1,5 @@
 # stats170b_project
-Data Science Project examining Twitter sentiments and how they correlate with national polls
-Made by Sanjith Venkatesh and Tom Young Choi for UCI STATS 170B
+Data Science Project examining Twitter sentiments and how they correlate with national polls, made by Sanjith Venkatesh and Tom Young Choi for UCI STATS 170B
 
 project.ipynb -> the main notebook that does the following:
 1. Creates a classifier using a training set with supervised labels
@@ -9,7 +8,7 @@ project.ipynb -> the main notebook that does the following:
 4. Using 538 polling data, calculates weekly averages and changes in polls
 5. Calculates the correlation values between the two changes
 
-data/labels/biden_labels -> contains three csv files containing training data for the classifier. Has 40 Tweets for each class:
+data/labels/biden_labels -> contains three csv files containing training data for the classifier. It has 40 Tweets for each supervised label:
 1  - positive (sentiment)
 0  - neutral
 -1 - negative
